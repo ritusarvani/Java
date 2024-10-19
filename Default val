@@ -1,0 +1,22 @@
+import java.util.*;
+class Def{
+    static int i;
+    static float f;
+    static char ch;
+    static boolean bool;
+    static byte b;
+    static long l;
+    static short s;
+    static double d;
+    public static void main(String []args){
+    System.out.println(i);
+    System.out.println(f);
+    System.out.println(ch);
+    System.out.println(bool);
+    System.out.println(b);
+    System.out.println(l);
+    System.out.println(s);
+    System.out.println(d);
+    
+    }
+}
