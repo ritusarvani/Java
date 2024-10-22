@@ -1,0 +1,9 @@
+class A {
+    public static void myMethod(String name,int age) {
+        System.out.println(name+","+age);
+    }
+    public static void main(String []args) {
+       myMethod("Ritu",18);
+       myMethod("Taehyung",27);
+    } 
+}
