@@ -1,0 +1,51 @@
+class Employ {
+     float sal = 10000f;
+ }
+ class HR extends Employ {
+     float sal = 20000f;
+     void display() {
+         System.out.println("Salary is "+super.sal);
+     }
+     public static void main(String []args) {                                         Variable
+         HR h = new HR();
+         h.display();
+     }
+     
+ }
+
+class Employ {
+     public void message() {
+         System.out.println("Parent");
+     }
+ }
+ class HR extends Employ {
+     public void message() {
+         System.out.println("Child");
+     }
+     void display() {                                                                 Method
+         super.message();
+         message();
+     }
+     public static void main(String []args) {
+         HR h = new HR();
+         h.display();
+     }
+ }
+
+class A {
+    A() {
+         System.out.println("Parent");
+     }
+ }
+ class B extends A {
+     B() {                                                                          Constructor
+         super();
+         System.out.println("Child");
+     }
+     public static void main(String []args) {
+         B b = new B();
+     }
+ }
+    
+    
+    
