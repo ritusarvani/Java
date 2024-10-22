@@ -1,0 +1,17 @@
+class A {
+    public void methodA() {
+        System.out.println("Parent");
+    }
+}
+
+class B extends A {
+    public void methodB() {
+        System.out.println("Child");
+    }
+
+    public static void main(String[] args) {
+        B b = new B();
+        b.methodA();
+        b.methodB();
+    }
+}
